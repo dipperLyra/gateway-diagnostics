@@ -16,8 +16,8 @@ export function Landing() {
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <Link
             className="text-sm font-medium hover:underline underline-offset-4 text-gray-900 dark:text-gray-50"
-            href="#about-us">
-            About
+            href="#contact-us">
+            Contact us
           </Link>
           <Link
             className="text-sm font-medium hover:underline underline-offset-4 text-gray-900 dark:text-gray-50"
@@ -218,7 +218,7 @@ export function Landing() {
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800" id="about-us">
+        <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800" id="contact-us">
           <div className="container px-4 md:px-6">
             <div className="space-y-4 text-center">
               <div
