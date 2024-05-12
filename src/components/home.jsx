@@ -38,18 +38,13 @@ export function Landing() {
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <Link
             className="text-sm font-medium hover:underline underline-offset-4 text-gray-900 dark:text-gray-50"
-            href="#">
+            href="#about-us">
             About
           </Link>
           <Link
             className="text-sm font-medium hover:underline underline-offset-4 text-gray-900 dark:text-gray-50"
             href="#">
             Services
-          </Link>
-          <Link
-            className="text-sm font-medium hover:underline underline-offset-4 text-gray-900 dark:text-gray-50"
-            href="#">
-            Facilities
           </Link>
           <Link
             className="text-sm font-medium hover:underline underline-offset-4 text-gray-900 dark:text-gray-50"
@@ -244,7 +239,7 @@ export function Landing() {
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
+        <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800" id="about-us">
           <div className="container px-4 md:px-6">
             <div className="space-y-4 text-center">
               <div
@@ -259,6 +254,9 @@ export function Landing() {
                 className="max-w-[700px] mx-auto text-gray-600 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                 Our online booking system makes it easy to schedule your diagnostic appointment at a time that's
                 convenient for you.
+                <br /><br />
+                Address: Suite 47, POWA plaza Zone C, Apo resettlement, Apo, Abuja, Nigeria.
+                Phone: &#128222; <a href="tel:+2349033554586">+234 903 355 4586</a>
               </p>
             </div>
           </div>
