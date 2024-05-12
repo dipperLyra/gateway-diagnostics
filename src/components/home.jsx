@@ -16,17 +16,12 @@ export function Landing() {
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <Link
             className="text-sm font-medium hover:underline underline-offset-4 text-gray-900 dark:text-gray-50"
-            href="#contact-us">
-            Contact us
-          </Link>
-          <Link
-            className="text-sm font-medium hover:underline underline-offset-4 text-gray-900 dark:text-gray-50"
             href="#">
             Services
           </Link>
           <Link
             className="text-sm font-medium hover:underline underline-offset-4 text-gray-900 dark:text-gray-50"
-            href="#">
+            href="#contact-us">
             Book Appointment
           </Link>
         </nav>
