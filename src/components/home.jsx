@@ -1,6 +1,8 @@
 
 import Link from "next/link"
 import { CardContent, Card } from "@/components/ui/card"
+import Image from "next/image";
+
 
 export function Landing() {
   return (
@@ -62,12 +64,13 @@ export function Landing() {
                   </Link>
                 </div>
               </div>
-              <img
-                alt="Gateway Diagnostics"
+              <Image
                 className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
-                height="310"
-                src="/placeholder.svg"
-                width="550" />
+                src="/default.svg" 
+                alt="Gateway Diagnostics"
+                width={500}
+                height={310}
+              />
             </div>
           </div>
         </section>
