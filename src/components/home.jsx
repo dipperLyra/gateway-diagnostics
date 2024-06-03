@@ -61,7 +61,7 @@ export function Landing() {
               </div>
               <Image
                 className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
-                src="/default.svg" 
+                src="/scientist.jpeg" 
                 alt="Gateway Diagnostics"
                 width={500}
                 height={310}
@@ -216,23 +216,14 @@ export function Landing() {
         <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800" id="contact-us">
           <div className="container px-4 md:px-6">
             <div className="space-y-4 text-center">
-              <div
-                className="inline-block rounded-lg bg-gray-200 px-3 py-1 text-sm font-medium text-gray-900 dark:bg-gray-700 dark:text-gray-50">
-                Book an Appointment
-              </div>
               <h2
                 className="text-3xl font-bold tracking-tighter sm:text-5xl text-gray-900 dark:text-gray-50">
-                Schedule Your Diagnostic Appointment
+                Contact us
               </h2>
-              <p
-                className="max-w-[700px] mx-auto text-gray-600 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                Our online booking system makes it easy to schedule your diagnostic appointment at a time that's
-                convenient for you.
-                <br /><br />
-                Address: Suite 47, POWA plaza Zone C, Apo resettlement, Apo, Abuja, Nigeria.
-                <br />
-                Phone: &#128222; <a href="tel:+2349033554586">+234 903 355 4586</a>
-              </p>
+              <address>
+                Phone: &#128222; <a href="tel:+2349033554586">+234 903 355 4586</a> | Email: &#128231; <a href="mailto:gatewaylab07@gmail.com">gatewaylab07@gmail.com</a><br />
+                Visit us at: Suite 47, POWA plaza Zone C, Apo resettlement, Apo, Abuja, Nigeria. 
+              </address>
             </div>
           </div>
         </section>
